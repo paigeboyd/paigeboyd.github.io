@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="61px" viewBox="0 0 104 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>blue circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-52.6993411%" y1="192.282576%" x2="67.1100916%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#7CB5C2" offset="0%"></stop>
+            <stop stop-color="#8ACAD8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="iOS-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SignUp-or-Log-in" transform="translate(-84.000000, -606.000000)" fill="url(#linearGradient-1)">
+            <circle id="blue-circle" cx="136" cy="658" r="52"></circle>
+        </g>
+    </g>
+</svg>
