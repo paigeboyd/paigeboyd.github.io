@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="179px" viewBox="0 0 375 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>yellow title bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="95.9301496%" y1="-76.9964819%" x2="35.1391267%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9E877" offset="0%"></stop>
+            <stop stop-color="#EFD154" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="375" height="164"></rect>
+        <filter x="-4.9%" y="-8.8%" width="109.9%" height="122.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.937254902   0 0 0 0 0.819607843   0 0 0 0 0.329411765  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="iOS-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lesson-Summary-Copy-3">
+            <g id="yellow-title-bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
