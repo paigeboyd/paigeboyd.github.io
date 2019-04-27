@@ -1,0 +1,271 @@
+body {
+    background-color: #fffdfa;
+    color: #000;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #000;
+}
+
+
+.parallax-container {
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    height:100%;
+    background: url(images/selectpage/poster-bg.svg) no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.parallax-layer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 960px 253px;
+}
+
+
+#posters {
+    max-width: 95vw;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 1% 5% 0% 5%;
+    
+}
+
+/* ----- BORON ELEMENT ----- */
+.boron {
+    display: block-inline;
+    float: left;
+    height: 175px;
+    width: 180px;
+    margin: 0px 20px;
+    border: 4px solid #F2F2F2;
+    color: #D9D9D9;
+     animation-delay: 0.1s;
+}
+
+.boron:hover {
+    transition: ease-in 0.2s;
+    border: 4px solid #14ED9F;
+    background: #14ED9F;
+    color: #fff;
+}
+
+.boron .elementletter {
+    font-size: 8em; /* = 128px */
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    text-align: center;
+    height: 128px;
+}
+
+.boron .elementname {
+	font-size: 1.4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ----- CARBON ELEMENT ----- */
+.carbon {
+    display: block-inline;
+    float: left;
+    height: 175px;
+    width: 180px;
+    margin: 0px 20px;
+    border: 4px solid #F2F2F2;
+    color: #D9D9D9;
+    animation-delay: 0.2s;
+}
+
+.carbon:hover {
+    transition: ease-in 0.2s;
+    border: 4px solid #F78F1F;
+    background: #F78F1F;
+    color: #fff;
+}
+
+.carbon .elementletter {
+    font-size: 8em; /* = 128px */
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    text-align: center;
+    height: 128px;
+}
+
+.carbon .elementname {
+	font-size: 1.4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ----- HELIUM ELEMENT ----- */
+.helium {
+    display: block-inline;
+    float: left;
+    height: 175px;
+    width: 180px;
+    margin: 0px 20px;
+    border: 4px solid #F2F2F2;
+    color: #D9D9D9;
+     animation-delay: 0.3s;
+}
+
+.helium:hover {
+    transition: ease-in 0.2s;
+    border: 4px solid #ED1462;
+    background: #ED1462;
+    color: #fff;
+}
+
+.helium .elementletter {
+    font-size: 8em; /* = 128px */
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    text-align: center;
+    height: 128px;
+}
+
+.helium .elementname {
+	font-size: 1.4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ----- LITHIUM ELEMENT ----- */
+.lithium {
+    display: block-inline;
+    float: left;
+    height: 175px;
+    width: 180px;
+    margin: 0px 20px;
+    border: 4px solid #F2F2F2;
+    color: #D9D9D9;
+     animation-delay: 0.4s;
+}
+
+.lithium:hover {
+    transition: ease-in 0.2s;
+    border: 4px solid #FCEE21;
+    background: #FCEE21;
+    color: #fff;
+}
+
+.lithium .elementletter {
+    font-size: 8em; /* = 128px */
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    text-align: center;
+    height: 128px; 
+}
+
+.lithium .elementname {
+	font-size: 1.4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+/* ----- OXYGEN ELEMENT ----- */
+.oxygen {
+    display: block-inline;
+    float: left;
+    height: 175px;
+    width: 180px;
+    margin: 0px 20px;
+    border: 4px solid #F2F2F2;
+    color: #D9D9D9;
+     animation-delay: 0.5s;
+}
+
+.oxygen:hover {
+    transition: ease-in 0.2s;
+    border: 4px solid #77C9F7;
+    background: #77C9F7;
+    color: #fff;
+}
+
+.oxygen .elementletter {
+    font-size: 8em; /* = 128px */
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    text-align: center;
+    height: 128px;
+}
+
+.oxygen .elementname {
+	font-size: 1.4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/* ------ CSS ANIMATION ------ */
+
+
+/* ------ MEDIA QUERIES ------ */
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 500px) {
+
+    body {
+        margin: 0; /* fixes borders around the edge */
+    }
+    
+    .parallax-container {
+        margin-top: 5px; /* moves the posters up/down */
+    }
+    
+    #posters {
+        display: inline-block;
+    }
+   
+    .boron, .carbon, .helium, .lithium, .oxygen{
+        height: 105px;
+        width: 100px;
+        margin: 5px 6px;
+    }
+
+    .boron .elementletter, .carbon .elementletter, .helium .elementletter, .lithium .elementletter, .oxygen .elementletter {
+        font-size: 3.8em;
+        margin-top: 0px;
+        height: 45px;
+    }
+    
+    .boron .elementname, .carbon .elementname, .helium .elementname, .lithium .elementname, .oxygen .elementname {
+        font-size: 1.2em;
+    }
+
+}
+
+/* Large Screens */
+@media only screen  and (min-width : 1300px) {
+    #posters {
+        margin: 1% 10% 0% 10%;
+    }
+}

@@ -1,0 +1,180 @@
+body {
+    background-color: #fffdfa;
+    color: #000;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #000;
+}
+
+
+.parallax-container {
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    background: url(images/elements/blackboardbg.svg) no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#elementtitle {
+    font-size: 7em;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 20px; 
+    margin-top: -50px;
+    margin-bottom: -10px; /*moves p text up/down */
+    text-shadow: -3px -3px 0 #000,
+                3px -3px 0 #000,
+                -3px 3px 0 #000,
+                3px 3px 0 #000; 
+}
+
+#blackboardoutline {
+    display: block;
+    margin: 0 auto;
+    height: 75%;
+    width: 80%;
+    background-color: #d2b28c;
+    border: 4px solid #673d6d;
+    margin-top: 50px;
+}
+
+#blackboard {
+    display: block;
+    margin: 0 auto;
+    height: 90%;
+    width: 95%;
+    background-color: #00613c;
+    border: 4px solid #673d6d;
+    margin-top: 20px;
+}
+
+.info {
+    font-family: 'Amatic SC';
+    font-weight: 100;
+    font-size: 1.7em;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+/* ----- BORON ELEMENT ----- */
+.boron {
+    color: #14ED9F;
+    animation-delay: 0.1s;
+}
+
+.boronimg {
+    display: block;
+    float: right;
+    height: 200px;
+    margin-right: 3%;
+    margin-top: -4%;
+}
+
+.rocketimg {
+    display: block;
+    float: right;
+    height: 180px;
+    margin-right: 20%;
+    margin-top: -80px;
+}
+
+.franceflag {
+    display: block;
+    float: right;
+    height: 100px;
+    margin-top: -5%;
+    margin-right: 20%;
+}
+
+/* ----- CARBON ELEMENT ----- */
+.carbon {
+    color: #F78F1F;
+    animation-delay: 0.1s;
+}
+
+
+/* ----- HELIUM ELEMENT ----- */
+.helium {
+    color: #ED1462;
+    animation-delay: 0.1s;
+}
+
+
+
+/* ----- LITHIUM ELEMENT ----- */
+.lithium {
+    color: #FCEE21;
+    animation-delay: 0.1s;
+}
+
+
+
+/* ----- OXYGEN ELEMENT ----- */
+.oxygen {
+    color: #77C9F7;
+    animation-delay: 0.1s;
+}
+
+
+
+
+/* ------ CSS ANIMATION ------ */
+
+
+/* ------ MEDIA QUERIES ------ */
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 500px) {
+
+    body {
+        margin: 0; /* fixes borders around the edge */
+    }
+    
+    #blackboardoutline {
+        height: 70%;
+        width: 85%;
+    }
+    
+    #elementtitle {
+        font-size: 4em;
+        letter-spacing: 10px;
+        margin-top: -40px;
+    }
+    
+    #blackboard {
+        height: 90%;
+        width: 90%;
+    }
+
+    .info {
+        font-size: 1.4em;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+ 
+    
+/* ----- BORON ELEMENT ----- */    
+    .boronimg {
+        display: none;
+    }
+
+    .rocketimg {
+       display: none;
+    }
+
+    .franceflag {
+        display: none;
+    }
+
+}

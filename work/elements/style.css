@@ -1,0 +1,259 @@
+body {
+    background-color: #fffdfa;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+}
+
+
+.parallax-container {
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    height:100%;
+    background: url(images/index/lab-bg.svg) no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   /* background-repeat: no-repeat;
+    background-size: contain;*/
+}
+
+.parallax-layer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 960px 253px;
+}
+
+
+.layer1 {
+    z-index: 10;
+    background: url(images/index/lab-bg2.svg) no-repeat bottom center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+   /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;*/
+}
+
+.layer2 {
+    z-index: 15;
+    background-image: url(images/index/bubbles1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;    
+}
+
+.layer3 {
+    z-index: 15;
+    background-image: url(images/index/bubbles2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;    
+}
+
+.layer4 {
+    z-index: 15;
+    background-image: url(images/index/bubbles3.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;    
+}
+
+.layer5 {
+    z-index: 15;
+    background-image: url(images/index/bubbles4.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;    
+}
+
+/*
+.layer6 {
+    z-index: 15;
+    background-image: url(images/index/clockleft1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    
+}
+
+.layer7 {
+    z-index: 20;
+    background-image: url(images/index/clockright1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;    
+}
+*/
+
+.layer8 {
+    z-index: 5;
+    background-image: url(images/index/flame1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+    background-position: bottom center;    
+}
+
+.layer9 {
+    z-index: 5;
+    background-image: url(images/index/flame2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    background-position: bottom center;    
+}
+
+ 
+/* ------ SPLASH PAGE ------ */
+#maintitle {
+    font-weight: 100;
+    font-size: 8em;
+    color: #673d6d;
+    letter-spacing: 8px;
+    display: block;
+    margin: 10px auto;
+    text-align: center; 
+}
+
+.bubbleoutline {
+    margin: 0 auto;
+    display: block;
+    z-index: 15;
+}
+
+
+a.button{
+    position: relative;
+    z-index: 100; /*making sure it stays to the front*/
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: -10px;
+    color: #673d6d;
+    width: 125px;
+    padding: 10px 5px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px solid #673d6d;
+    border-radius: 50px;
+    transition: all 0.4s ease 0s;
+    letter-spacing: 3px;
+}
+
+a.button:hover {
+    background-color: rgb(237, 20, 98);/*rgb(103, 61, 109)*/
+    color: #fff;
+    border: 3px solid #ed1462; /*#673d6d - purple*/
+    transform: scale(1.1);
+
+}
+
+
+
+/* ------ CSS ANIMATION ------ */
+
+.bubbles {
+  -webkit-animation: fade 0.9s alternate infinite;
+  animation: fade 0.9s alternate infinite;
+  display: block;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+
+.bubble2 {
+  -webkit-animation: delay 0.5s fade 1.0s alternate infinite;
+  animation: fade 1.0s alternate infinite;
+  display: block;
+}
+
+.bubble3 {
+  -webkit-animation: delay 0.3s fade 0.6s alternate infinite;
+  animation: fade 0.6s alternate infinite;
+  display: block;
+}
+
+.bubble4 {
+  -webkit-animation: delay 0.3s fade 0.7s alternate infinite;
+  animation: fade 0.6s alternate infinite;
+  display: block;
+}
+
+.flames {
+    width: 100%;
+    height: 100%;
+    transform-origin: center bottom;
+    animation-name: flameIt;
+    animation-duration: 6000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.flames2 {
+    width: 100%;
+    height: 100%;
+    transform-origin: center bottom;
+    animation-name: flameIt;
+    animation-duration: 6000ms;
+    animation-delay: 500ms;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes flameIt{
+    0%   {
+        transform: rotate(-0.1deg);
+        opacity: 0.5;
+    }
+    20%  {
+        transform: rotate(0.1deg);
+        opacity: 0.6;
+    }
+    40%  {
+        transform: rotate(-0.1deg);
+        opacity: 0.6;
+    }
+    60%  {
+        transform: rotate(0.2deg) scaleY(1.01);
+        opacity: 0.6;
+    }
+    80%  {
+        transform: rotate(-0.1deg) scaleY(1.01);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(0.01deg);
+        opacity: 0..5;
+    }
+
+}
