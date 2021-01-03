@@ -1,9 +1,4 @@
 # Freelance-Portfolio
-Paige Boyd Designs ltd
-
-Freelance Design Portfolio
+Paige Boyd Design Portfolio
 
 
-## To-Do
-- Upload work files
-- Link check
